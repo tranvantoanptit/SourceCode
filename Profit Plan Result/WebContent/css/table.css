@@ -1,0 +1,37 @@
+	table {	
+							border: 1px solid black;
+							table-layout: fixed;
+							border-collapse: collapse;
+							background-color: #e7e7a5;
+   							border-spacing: 0px;
+							margin: 5px;
+						}
+	table th, table td {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	table td:last-child {
+      width: 100%;
+    }
+    
+    .label {
+    	background-color: #9ccece;
+    }
+    
+    .noborder {
+    	border: none;
+		background-color: #ffffff;
+    }
+    
+    .tablenoborder{
+    	border: none;
+    }
+    #table_result th{
+    	text-align:left;
+    }
+    
+    #table_result td:last-child,  #table_result th:last-child{
+    	text-align:right;
+    }
+    
